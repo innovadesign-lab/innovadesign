@@ -11,6 +11,7 @@ export const STUDIO = {
   instagram: "https://instagram.com/innova_.design",
   instagramHandle: "@innova_.design",
   facebook: "Innovadeisgn",
+  facebookUrl: "https://facebook.com/Innovadeisgn",
   locality: "Puebla",
   region: "Puebla",
   country: "México",
