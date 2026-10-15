@@ -64,11 +64,17 @@
         "canonical": "#FC4400",
         "tonalRamp": ["#3A1500", "#6A2800", "#9A3C00", "#C44A00", "#FC4400", "#FF7A3D", "#FFB088", "#FFE4D4"]
       },
-      "electric-blue": {
+      "sila-blue": {
         "role": "tertiary",
-        "displayName": "Azul eléctrico",
+        "displayName": "Azul Sila",
         "canonical": "#102CE8",
         "tonalRamp": ["#070A4A", "#0C1480", "#101CA8", "#102CE8", "#3D55F0", "#6B84F5", "#A8B6FA", "#E4E8FF"]
+      },
+      "participacion-blue": {
+        "role": "tertiary",
+        "displayName": "Azul participación",
+        "canonical": "#0050F8",
+        "tonalRamp": ["#00124A", "#002880", "#003CB0", "#0050F8", "#3D78FF", "#7AA4FF", "#B4CFFF", "#E4EEFF"]
       },
       "on-accent": {
         "role": "neutral",
@@ -173,7 +179,7 @@
   ],
   "narrative": {
     "northStar": "El showroom negro",
-    "overview": "Innovadesign es un holding, y el sitio se comporta como un showroom: negro, quieto, una idea por pantalla. Lo futurista no está en neones ni en tipografía gruesa. Está en la resta. El lienzo por defecto es negro puro, la fotografía va a sangre cuando existe, y la interfaz se limita a una frase, una marca y como máximo dos acciones. Tesla es la referencia de disciplina (radio de 4 px, dos pesos, cero sombras, vidrio en la navegación), invertida: aquí la noche es el modo principal y el blanco es el modo claro.\n\nEl negro es la marca del holding. El color cromático no decora la casa: nombra una vertical y solo vive dentro de ella. Movilidad, incluidos los vehículos, habla en el naranja de SubVen. Lo social —Sila, participación ciudadana y voluntariado— comparte un solo azul eléctrico. Lo gubernamental no tiene pigmento: su acento es el blanco del arco.\n\nEl modo claro no es un gris invertido. Es el mismo showroom con el lienzo en blanco y la tinta en carbón. Cambian las superficies. No cambia la escasez.",
+    "overview": "Innovadesign es un holding, y el sitio se comporta como un showroom: negro, quieto, una idea por pantalla. Lo futurista no está en neones ni en tipografía gruesa. Está en la resta. El lienzo por defecto es negro puro, la fotografía va a sangre cuando existe, y la interfaz se limita a una frase, una marca y como máximo dos acciones. Tesla es la referencia de disciplina (radio de 4 px, dos pesos, cero sombras, vidrio en la navegación), invertida: aquí la noche es el modo principal y el blanco es el modo claro.\n\nEl negro es la marca del holding. El color cromático no decora la casa: nombra una vertical y solo vive dentro de ella. Movilidad, incluidos los vehículos, habla en el naranja de SubVen. Sila y participación ciudadana tienen cada una el azul de su marca. Voluntariado y lo gubernamental no tienen pigmento: su acento es el blanco.\n\nEl modo claro no es un gris invertido. Es el mismo showroom con el lienzo en blanco y la tinta en carbón. Cambian las superficies. No cambia la escasez.",
     "keyCharacteristics": [
       "Negro puro como modo por defecto; blanco puro como modo claro.",
       "Un solo acento de vertical por pantalla. El holding se queda en blanco y negro.",
@@ -227,7 +233,7 @@
     "dos": [
       "Do usar la noche como fondo por defecto y el blanco como modo claro.",
       "Do reservar el naranja señal a SubVen y a cualquier diseño de movilidad, vehículos incluidos.",
-      "Do usar un solo azul eléctrico para Sila, participación ciudadana y voluntariado.",
+      "Do usar el azul de Sila solo en Sila, y el azul de participación solo en participación ciudadana. Voluntariado va en blanco.",
       "Do marcar la consultoría gubernamental en blanco sobre el sitio negro, y en carbón cuando el lienzo es blanco.",
       "Do dejar Noticias visible y vacía hasta que exista una nota real.",
       "Do presentar a Diego Farfán y a José Luis Macedo como nombre y cargo, en fila, dentro de quiénes somos."
