@@ -1,15 +1,16 @@
 {
   "Blog": {
-    "title": "Blog",
-    "metaTitle": "Studio blog",
-    "description": "Notes on visual direction, systems, and how we take a project apart.",
-    "backToBlog": "← Back to the blog",
+    "title": "News",
+    "metaTitle": "News",
+    "description": "News and notes from Innovadesign.",
+    "backToBlog": "← Back to news",
     "readingTime": "{minutes} min read",
-    "categoryStudio": "Studio",
+    "categoryStudio": "Innovadesign",
     "categoryNotes": "Notes",
     "readMore": "Read more →",
     "allPosts": "All",
     "relatedTitle": "Other notes",
-    "empty": "There are no posts in this category yet."
+    "empty": "No notes yet.",
+    "emptyHint": "The folder is still blank."
   }
 }

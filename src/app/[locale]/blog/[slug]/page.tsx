@@ -7,7 +7,6 @@ import { routing } from "@/modules/cores/i18n/src/config/routing";
 import { getPost, getPostSlugs, listPosts, CATEGORIES } from "@/modules/features/blog/src/services/markdown";
 import { RelatedNotes } from "@/modules/features/blog/src/components/related-notes";
 import { ORGANIZATION_ID, SITE_NAME, SITE_URL, WEBSITE_ID } from "@/modules/cores/site/src/config/site";
-import { ClosingCta } from "@/modules/features/pages/src/sections/home/closing-cta";
 
 export function generateStaticParams() {
   return routing.locales.flatMap((locale) =>
@@ -66,7 +65,6 @@ export default async function BlogPostPage({
   const post = getPost(slug, locale);
   if (!post) notFound();
   const t = await getTranslations({ locale, namespace: "Blog" });
-  const closing = await getTranslations({ locale, namespace: "Home" });
   const relatedPosts = listPosts(locale).map(({ contentHtml, ...meta }) => {
     void contentHtml;
     return meta;
@@ -138,11 +136,6 @@ export default async function BlogPostPage({
         </article>
         <RelatedNotes posts={relatedPosts} currentSlug={slug} />
       </div>
-      <ClosingCta
-        title={closing("closing.title")}
-        description={closing("closing.description")}
-        cta={closing("closing.cta")}
-      />
     </>
   );
 }

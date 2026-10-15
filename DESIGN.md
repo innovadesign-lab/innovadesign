@@ -194,7 +194,7 @@ La unidad base es 8 px. La página del holding es una secuencia de bandas a altu
 
 En desktop las dos acciones de una banda van lado a lado. Debajo de 768 px se apilan y el título de héroe pasa a 28 px. La navegación horizontal (Quiénes somos, verticales, noticias, contacto) se vuelve un panel a pantalla completa. El equipo son dos nombres en fila; en móvil se apilan.
 
-Noticias existe en la navegación y en la página, y hoy no tiene notas. El vacío es una línea, no un esqueleto de artículos falsos.
+Noticias existe en la navegación y en la página, y hoy no tiene notas. En la página el vacío es un archivo en blanco y negro, no un esqueleto de artículos falsos. En el inicio sigue siendo una sola línea.
 
 ### Named Rules
 
@@ -252,7 +252,7 @@ Dos personas, en la misma página de quiénes somos, no en un directorio aparte.
 
 ### Noticias
 
-La sección se renderiza vacía. Un título y una sola línea de estado. Sin tarjetas placeholder, sin fechas ficticias, sin "lee también".
+La página se renderiza vacía: título, un folder monocromo y dos líneas. Sin tarjetas placeholder, sin fechas ficticias, sin "lee también". En el inicio, la banda sigue en una sola línea.
 
 ## Do's and Don'ts
 

@@ -4,6 +4,7 @@ import { listPosts } from "@/modules/features/blog/src/services/markdown";
 import { buildMetadata } from "@/modules/cores/site/src/services/page-metadata";
 import { routing } from "@/modules/cores/i18n/src/config/routing";
 import { BlogList } from "@/modules/features/blog/src/components/blog-list";
+import { EmptyNews } from "@/modules/features/blog/src/components/empty-news";
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
@@ -33,6 +34,17 @@ export default async function BlogPage({ params }: { params: Promise<{ locale: s
     void contentHtml;
     return meta;
   });
+
+  if (posts.length === 0) {
+    return (
+      <EmptyNews
+        title={t("title")}
+        lede={t("description")}
+        message={t("empty")}
+        hint={t("emptyHint")}
+      />
+    );
+  }
 
   return (
     <div className="container-site py-16 lg:py-24">
