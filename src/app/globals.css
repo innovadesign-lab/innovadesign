@@ -32,6 +32,8 @@
   --error: #9d2c2c;
   --info: #2f4a6e;
   --card-shadow: none;
+  --sector-mono: #171a20;
+  --sector-on-mono: #ffffff;
 }
 
 [data-theme="dark"] {
@@ -53,6 +55,8 @@
   --error: #f0a0a0;
   --info: #a9c0de;
   --card-shadow: none;
+  --sector-mono: #ffffff;
+  --sector-on-mono: #171a20;
 }
 
 @theme inline {

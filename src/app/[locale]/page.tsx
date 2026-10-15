@@ -60,6 +60,7 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
           body={t(`verticals.${item.id}.body`)}
           cta={item.cta ? t(`verticals.${item.id}.cta`) : ""}
           mark={item.mark}
+          markLight={"markLight" in item ? item.markLight : undefined}
           accent={item.accent}
         />
       ))}
