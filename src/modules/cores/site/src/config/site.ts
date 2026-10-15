@@ -1,11 +1,16 @@
-export const SITE_NAME = "Innova Design";
+export const SITE_NAME = "Innovadesign";
 export const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://innovadesign.mx";
 
 export const ORGANIZATION_ID = `${SITE_URL}/#organization`;
 export const WEBSITE_ID = `${SITE_URL}/#website`;
 
 export const STUDIO = {
-  email: "hola@innovadesign.mx",
+  email: "info@innovadesign.com.mx",
+  phone: "(221) 5334922",
+  phoneHref: "tel:+522215334922",
+  instagram: "https://instagram.com/innova_.design",
+  instagramHandle: "@innova_.design",
+  facebook: "Innovadeisgn",
   locality: "Puebla",
   region: "Puebla",
   country: "México",
