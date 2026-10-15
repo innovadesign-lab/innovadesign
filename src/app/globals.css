@@ -65,6 +65,11 @@
   --color-brand-light: var(--brand-primary-light);
   --color-on-brand: var(--text-on-brand);
   --color-accent: var(--brand-accent);
+  --color-accent-foreground: var(--on-accent);
+  --color-background: var(--bg-base);
+  --color-foreground: var(--text-primary);
+  --color-primary: var(--brand-accent);
+  --color-primary-foreground: var(--on-accent);
   --color-on-accent: var(--on-accent);
   --color-surface: var(--bg-base);
   --color-surface-subtle: var(--bg-subtle);
