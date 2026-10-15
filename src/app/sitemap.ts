@@ -9,7 +9,12 @@ export const dynamic = "force-static";
 
 const ROUTES = [
   { path: "/", file: "src/app/[locale]/page.tsx", priority: 1, frequency: "weekly" as const },
-  { path: "/estudio", file: "src/app/[locale]/estudio/page.tsx", priority: 0.8, frequency: "monthly" as const },
+  { path: "/quienes-somos", file: "src/app/[locale]/quienes-somos/page.tsx", priority: 0.9, frequency: "monthly" as const },
+  { path: "/subven", file: "src/app/[locale]/subven/page.tsx", priority: 0.9, frequency: "monthly" as const },
+  { path: "/sila", file: "src/app/[locale]/sila/page.tsx", priority: 0.9, frequency: "monthly" as const },
+  { path: "/participacion", file: "src/app/[locale]/participacion/page.tsx", priority: 0.8, frequency: "monthly" as const },
+  { path: "/voluntariado", file: "src/app/[locale]/voluntariado/page.tsx", priority: 0.7, frequency: "monthly" as const },
+  { path: "/consultoria", file: "src/app/[locale]/consultoria/page.tsx", priority: 0.9, frequency: "monthly" as const },
   { path: "/blog", file: "src/app/[locale]/blog/page.tsx", priority: 0.9, frequency: "weekly" as const },
   { path: "/contacto", file: "src/app/[locale]/contacto/page.tsx", priority: 0.7, frequency: "yearly" as const },
   {
