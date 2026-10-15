@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Archivo, Raleway } from "next/font/google";
+import { Inter } from "next/font/google";
 import { NextIntlClientProvider } from "next-intl";
 import { getMessages, getTranslations, setRequestLocale } from "next-intl/server";
 import { notFound } from "next/navigation";
@@ -13,21 +13,11 @@ import { CookieBanner } from "@/modules/features/site/src/components/cookie-bann
 import { DocumentScripts } from "./document-scripts";
 import "../globals.css";
 
-const archivo = Archivo({
-  variable: "--font-archivo",
+const inter = Inter({
+  variable: "--font-inter",
   subsets: ["latin"],
   display: "swap",
-  preload: false,
-  weight: "variable",
-  axes: ["wdth"],
-});
-
-const raleway = Raleway({
-  variable: "--font-raleway",
-  subsets: ["latin"],
-  display: "swap",
-  preload: true,
-  weight: ["400", "500", "600"],
+  weight: ["400", "500"],
 });
 
 export function generateStaticParams() {
@@ -77,7 +67,7 @@ export default async function LocaleLayout({
     <html
       lang={locale}
       data-theme="dark"
-      className={`${archivo.variable} ${raleway.variable} h-full antialiased`}
+      className={`${inter.variable} h-full antialiased`}
       suppressHydrationWarning
     >
       <body className="flex min-h-full flex-col bg-surface font-body text-ink">

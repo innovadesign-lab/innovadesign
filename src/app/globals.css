@@ -79,8 +79,8 @@
   --color-sila: var(--sector-sila);
   --color-participacion: var(--sector-participacion);
 
-  --font-display: var(--font-archivo), "Archivo", sans-serif;
-  --font-body: var(--font-raleway), "Raleway", sans-serif;
+  --font-display: var(--font-inter), "Inter", sans-serif;
+  --font-body: var(--font-inter), "Inter", sans-serif;
 
   --text-display: clamp(3.25rem, 7vw, 5.5rem);
   --text-display--line-height: 0.98;
@@ -128,16 +128,15 @@
   body {
     background: var(--bg-base);
     color: var(--text-primary);
-    font-family: var(--font-body), "Raleway", sans-serif;
+    font-family: var(--font-body), "Inter", sans-serif;
   }
 
   h1,
   h2,
   h3,
   .display {
-    font-family: var(--font-display), "Archivo", sans-serif;
-    font-stretch: 112%;
-    font-weight: 700;
+    font-family: var(--font-display), "Inter", sans-serif;
+    font-weight: 500;
   }
 
   ::placeholder {
