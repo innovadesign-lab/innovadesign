@@ -5,10 +5,9 @@ import { STUDIO } from "@/modules/cores/site/src/config/site";
 import { Logo } from "@/modules/shared/ui/src/components";
 
 const FOOTER_LINKS = [
-  { key: "home", href: "/" },
-  { key: "studio", href: "/estudio" },
-  { key: "blog", href: "/blog" },
-  { key: "contact", href: "/contacto" },
+  { key: "about", href: "/#quienes" },
+  { key: "news", href: "/#noticias" },
+  { key: "contact", href: "/#contacto" },
 ].filter((item) => !isHiddenSection(item.href));
 
 export async function Footer() {
@@ -25,11 +24,25 @@ export async function Footer() {
         </div>
 
         <div>
-          <p className="text-micro uppercase tracking-wide text-ink-muted">{t("studio")}</p>
-          <p className="mt-3 text-small text-ink-secondary">{t("place")}</p>
-          <a href={`mailto:${STUDIO.email}`} className="mt-3 inline-block text-small text-link">
-            {STUDIO.email}
-          </a>
+          <p className="text-sm font-medium text-ink">{t("contact")}</p>
+          <ul className="mt-3 space-y-2 text-small">
+            <li>
+              <a href={`mailto:${STUDIO.email}`} className="text-link">
+                {STUDIO.email}
+              </a>
+            </li>
+            <li>
+              <a href={STUDIO.instagram} className="text-link">
+                {STUDIO.instagramHandle}
+              </a>
+            </li>
+            <li className="text-ink-secondary">{STUDIO.facebook}</li>
+            <li>
+              <a href={STUDIO.phoneHref} className="text-link">
+                {STUDIO.phone}
+              </a>
+            </li>
+          </ul>
         </div>
 
         <div>
@@ -48,7 +61,7 @@ export async function Footer() {
 
       <div className="container-site mt-12 border-t border-line pt-6">
         <p className="text-micro text-ink-muted">
-          © {new Date().getFullYear()} Innova Design · {t("madeIn")}
+          © {new Date().getFullYear()} Innovadesign · {t("madeIn")}
           {" · "}
           <Link href="/aviso-de-privacidad" className="text-link">
             {t("privacy")}
