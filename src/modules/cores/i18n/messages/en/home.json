@@ -10,6 +10,10 @@
       "primaryCta": "About us",
       "secondaryCta": "Contact"
     },
+    "solutions": {
+      "title": "Our solutions",
+      "cta": "Learn more"
+    },
     "about": {
       "title": "About us",
       "body": "At Innovadesign we design and drive strategic solutions that change how communities and public institutions work. Through human-centered design, technology, and social innovation, we take on projects of different kinds to meet the shifting needs around us. We connect citizens, institutions, and the private sector so ideas become tangible, lasting results that improve life in cities.",
@@ -52,7 +56,8 @@
     },
     "news": {
       "title": "News",
-      "empty": "No notes yet."
+      "empty": "No notes yet.",
+      "viewAll": "View blog"
     },
     "contact": {
       "title": "Contact"

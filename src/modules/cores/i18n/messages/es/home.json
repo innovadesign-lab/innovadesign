@@ -10,6 +10,10 @@
       "primaryCta": "Quiénes somos",
       "secondaryCta": "Contacto"
     },
+    "solutions": {
+      "title": "Nuestras soluciones",
+      "cta": "Conocer"
+    },
     "about": {
       "title": "Quiénes somos",
       "body": "En Innovadesign diseñamos e impulsamos soluciones estratégicas que transforman la dinámica comunitaria y la gestión pública. A través del diseño centrado en las personas, la tecnología y la innovación social, abordamos proyectos de diversa índole para responder a las necesidades cambiantes de nuestro entorno. Articulamos a la ciudadanía, las instituciones y el sector privado para convertir ideas en resultados tangibles, sostenibles y de alto impacto que mejoren la calidad de vida en las ciudades.",
@@ -52,7 +56,8 @@
     },
     "news": {
       "title": "Noticias",
-      "empty": "Todavía no hay notas."
+      "empty": "Todavía no hay notas.",
+      "viewAll": "Ver blog"
     },
     "contact": {
       "title": "Contacto"

@@ -10,9 +10,9 @@ import { LocaleSwitcher } from "@/modules/cores/i18n/src/components/locale-switc
 import { Logo } from "@/modules/shared/ui/src/components";
 
 const ITEMS: { key: string; href: string }[] = [
-  { key: "about", href: "/#quienes" },
-  { key: "news", href: "/#noticias" },
-  { key: "contact", href: "/#contacto" },
+  { key: "about", href: "/quienes-somos" },
+  { key: "news", href: "/blog" },
+  { key: "contact", href: "/contacto" },
 ].filter((item) => !isHiddenSection(item.href));
 
 export function Header() {
