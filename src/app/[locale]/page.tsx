@@ -3,16 +3,16 @@ import { getTranslations, setRequestLocale } from "next-intl/server";
 import { routing } from "@/modules/cores/i18n/src/config/routing";
 import { HomePageJsonLd } from "@/modules/cores/site/src/components/site-json-ld";
 import { buildMetadata } from "@/modules/cores/site/src/services/page-metadata";
-import { listPosts } from "@/modules/features/blog/src/services/markdown";
-import { ClosingCta } from "@/modules/features/pages/src/sections/home/closing-cta";
+import { VERTICALS } from "@/modules/features/pages/src/data/verticals";
+import { About } from "@/modules/features/pages/src/sections/home/about";
+import { ContactBand } from "@/modules/features/pages/src/sections/home/contact-band";
 import { Hero } from "@/modules/features/pages/src/sections/home/hero";
-import { Process } from "@/modules/features/pages/src/sections/home/process";
-import { Services } from "@/modules/features/pages/src/sections/home/services";
-import { Stories } from "@/modules/features/pages/src/sections/home/stories";
+import { News } from "@/modules/features/pages/src/sections/home/news";
+import { VerticalBand } from "@/modules/features/pages/src/sections/home/vertical-band";
 
-interface NamedCopy {
-  title: string;
-  description: string;
+interface Person {
+  name: string;
+  role: string;
 }
 
 export function generateStaticParams() {
@@ -39,44 +39,32 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
   setRequestLocale(locale);
   const t = await getTranslations({ locale, namespace: "Home" });
 
-  const posts = listPosts(locale)
-    .slice(0, 3)
-    .map(({ contentHtml, ...meta }) => {
-      void contentHtml;
-      return meta;
-    });
-
   return (
     <>
       <HomePageJsonLd locale={locale} title={t("metaTitle")} description={t("metaDescription")} />
       <Hero
-        eyebrow={t("hero.eyebrow")}
+        kicker={t("hero.kicker")}
         title={t("hero.title")}
-        description={t("hero.description")}
+        lede={t("hero.lede")}
+        body={t("hero.body")}
         primaryCta={t("hero.primaryCta")}
         secondaryCta={t("hero.secondaryCta")}
-        sheetLabel={t("hero.sheetLabel")}
-        lines={t.raw("hero.lines") as string[]}
       />
-      <Services
-        eyebrow={t("services.eyebrow")}
-        title={t("services.title")}
-        items={t.raw("services.items") as NamedCopy[]}
-      />
-      <Stories
-        eyebrow={t("stories.eyebrow")}
-        title={t("stories.title")}
-        readLabel={t("stories.readLabel")}
-        allLabel={t("stories.allLabel")}
-        locale={locale}
-        posts={posts}
-      />
-      <Process
-        eyebrow={t("process.eyebrow")}
-        title={t("process.title")}
-        steps={t.raw("process.steps") as NamedCopy[]}
-      />
-      <ClosingCta title={t("closing.title")} description={t("closing.description")} cta={t("closing.cta")} />
+      <About title={t("about.title")} body={t("about.body")} people={t.raw("about.people") as Person[]} />
+      {VERTICALS.map((item) => (
+        <VerticalBand
+          key={item.id}
+          id={item.id}
+          kicker={t(`verticals.${item.id}.kicker`)}
+          title={t(`verticals.${item.id}.title`)}
+          body={t(`verticals.${item.id}.body`)}
+          cta={item.cta ? t(`verticals.${item.id}.cta`) : ""}
+          mark={item.mark}
+          accent={item.accent}
+        />
+      ))}
+      <News title={t("news.title")} empty={t("news.empty")} />
+      <ContactBand title={t("contact.title")} />
     </>
   );
 }
