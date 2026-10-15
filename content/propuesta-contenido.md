@@ -26,6 +26,8 @@ Cada “Conoce…” es una banda en el inicio y, al mismo tiempo, una página c
 
 **Título:** Tecnología aplicada, soluciones urbanas e impacto social.
 
+**Lema del logo:** Transformando el futuro, cuidando el presente.
+
 **Texto:** En Innovadesign desarrollamos tecnología aplicada, soluciones urbanas e iniciativas de impacto social.
 
 **Acciones:** Quiénes somos · Contacto
