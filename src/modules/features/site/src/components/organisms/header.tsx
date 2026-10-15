@@ -10,10 +10,9 @@ import { LocaleSwitcher } from "@/modules/cores/i18n/src/components/locale-switc
 import { Logo } from "@/modules/shared/ui/src/components";
 
 const ITEMS: { key: string; href: string }[] = [
-  { key: "home", href: "/" },
-  { key: "studio", href: "/estudio" },
-  { key: "blog", href: "/blog" },
-  { key: "contact", href: "/contacto" },
+  { key: "about", href: "/#quienes" },
+  { key: "news", href: "/#noticias" },
+  { key: "contact", href: "/#contacto" },
 ].filter((item) => !isHiddenSection(item.href));
 
 export function Header() {
@@ -44,15 +43,13 @@ export function Header() {
       </a>
 
       <header
-        className={`sticky top-0 z-50 transition-[padding] duration-300 ease-out motion-reduce:transition-none ${
-          condensed ? "px-3 pt-2 sm:px-4 sm:pt-3" : "px-0 pt-0"
-        }`}
+        className="sticky top-0 z-50"
       >
         <div
-          className={`mx-auto transition-all duration-300 ease-out motion-reduce:transition-none ${
+          className={`mx-auto transition-colors duration-300 motion-reduce:transition-none ${
             condensed
-              ? "max-w-4xl rounded-full border border-line bg-surface/90 shadow-md backdrop-blur-md"
-              : "max-w-none rounded-none border-b border-line bg-surface/90 backdrop-blur-md"
+              ? "bg-white/75 backdrop-blur-md dark:bg-black/70"
+              : "bg-transparent"
           }`}
         >
           <div className="container-site flex items-center justify-between gap-4 py-2">
