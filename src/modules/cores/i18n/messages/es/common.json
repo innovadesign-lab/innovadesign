@@ -1,0 +1,44 @@
+{
+  "Nav": {
+    "label": "Navegación principal",
+    "home": "Inicio",
+    "studio": "Estudio",
+    "blog": "Blog",
+    "contact": "Contacto",
+    "open": "Abrir menú",
+    "close": "Cerrar menú",
+    "skipToContent": "Saltar al contenido"
+  },
+  "Footer": {
+    "name": "Estudio de identidad, producto digital y sistemas visuales.",
+    "studio": "Estudio",
+    "place": "Puebla, México",
+    "links": "Enlaces",
+    "madeIn": "Hecho en Puebla, México.",
+    "home": "Inicio",
+    "studioLink": "Estudio",
+    "blog": "Blog",
+    "contact": "Contacto",
+    "privacy": "Aviso de privacidad",
+    "cookies": "Aviso de cookies"
+  },
+  "CookieBanner": {
+    "text": "Guardamos tu preferencia de cookies en este navegador. El formulario de contacto abre tu correo; no enviamos el mensaje a un servidor nuestro.",
+    "accept": "Aceptar",
+    "reject": "Rechazar",
+    "privacy": "Aviso de privacidad",
+    "cookies": "Aviso de cookies"
+  },
+  "LocaleSwitcher": {
+    "label": "Idioma",
+    "es": "Español",
+    "en": "English"
+  },
+  "Theme": {
+    "toggle": "Cambiar tema"
+  },
+  "NotFound": {
+    "description": "Esa página no está en el estudio.",
+    "home": "Ir al inicio"
+  }
+}

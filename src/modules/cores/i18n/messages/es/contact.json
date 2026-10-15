@@ -1,0 +1,13 @@
+{
+  "Contact": {
+    "title": "Contacto",
+    "metaTitle": "Contacto",
+    "description": "Escríbenos para hablar de un proyecto de identidad, producto o sistema visual.",
+    "place": "Puebla, México",
+    "name": "Nombre",
+    "email": "Correo",
+    "message": "Mensaje",
+    "submit": "Abrir correo",
+    "hint": "El botón abre tu aplicación de correo con el mensaje listo. No se envía a un servidor."
+  }
+}

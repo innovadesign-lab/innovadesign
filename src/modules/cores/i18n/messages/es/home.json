@@ -1,0 +1,70 @@
+{
+  "Home": {
+    "metaTitle": "Innova Design — estudio de diseño",
+    "metaDescription": "Estudio de identidad, producto digital y sistemas visuales. Trabajo claro, medido y listo para usarse.",
+    "hero": {
+      "eyebrow": "Estudio de diseño",
+      "title": "Forma con medida.",
+      "description": "Identidad, interfaces y sistemas visuales para equipos que necesitan una dirección clara y piezas que se puedan usar.",
+      "primaryCta": "Escribir al estudio",
+      "secondaryCta": "Leer el blog",
+      "sheetLabel": "En qué trabajamos",
+      "lines": [
+        "Identidad que aguanta el uso diario",
+        "Interfaces con jerarquía y estados",
+        "Sistemas que otro equipo puede seguir"
+      ]
+    },
+    "services": {
+      "eyebrow": "Oficio",
+      "title": "Tres líneas",
+      "items": [
+        {
+          "title": "Identidad",
+          "description": "Nombre, marca y reglas de uso. Lo bastante concretas para que alguien más las aplique sin reinterpretarlas."
+        },
+        {
+          "title": "Producto",
+          "description": "Pantallas, flujos y lenguaje visual. La jerarquía se lee antes que la decoración."
+        },
+        {
+          "title": "Sistemas",
+          "description": "Tokens, componentes y criterios. El diseño deja de depender de un archivo suelto."
+        }
+      ]
+    },
+    "stories": {
+      "eyebrow": "Notas",
+      "title": "Del estudio",
+      "readLabel": "Leer",
+      "allLabel": "Todas las notas"
+    },
+    "process": {
+      "eyebrow": "Cómo",
+      "title": "De la pregunta a la entrega",
+      "steps": [
+        {
+          "title": "Conversación",
+          "description": "Qué hay que resolver, para quién y qué ya existe."
+        },
+        {
+          "title": "Dirección",
+          "description": "Una línea visual y de contenido, antes de producir variantes."
+        },
+        {
+          "title": "Piezas",
+          "description": "Las pantallas, la marca o el sistema, con estados reales."
+        },
+        {
+          "title": "Entrega",
+          "description": "Archivos, reglas y lo que el equipo necesita para seguir solo."
+        }
+      ]
+    },
+    "closing": {
+      "title": "Si ya hay un proyecto, o solo una pregunta.",
+      "description": "Escríbenos. Respondemos con el siguiente paso, no con una presentación genérica.",
+      "cta": "Contacto"
+    }
+  }
+}

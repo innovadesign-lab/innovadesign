@@ -1,0 +1,44 @@
+{
+  "Nav": {
+    "label": "Main navigation",
+    "home": "Home",
+    "studio": "Studio",
+    "blog": "Blog",
+    "contact": "Contact",
+    "open": "Open menu",
+    "close": "Close menu",
+    "skipToContent": "Skip to content"
+  },
+  "Footer": {
+    "name": "Identity, digital product, and visual systems.",
+    "studio": "Studio",
+    "place": "Puebla, Mexico",
+    "links": "Links",
+    "madeIn": "Made in Puebla, Mexico.",
+    "home": "Home",
+    "studioLink": "Studio",
+    "blog": "Blog",
+    "contact": "Contact",
+    "privacy": "Privacy notice",
+    "cookies": "Cookie notice"
+  },
+  "CookieBanner": {
+    "text": "We store your cookie choice in this browser. The contact form opens your mail app; we do not send the message to our own server.",
+    "accept": "Accept",
+    "reject": "Reject",
+    "privacy": "Privacy notice",
+    "cookies": "Cookie notice"
+  },
+  "LocaleSwitcher": {
+    "label": "Language",
+    "es": "Español",
+    "en": "English"
+  },
+  "Theme": {
+    "toggle": "Switch theme"
+  },
+  "NotFound": {
+    "description": "That page is not in the studio.",
+    "home": "Back home"
+  }
+}

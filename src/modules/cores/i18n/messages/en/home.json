@@ -1,0 +1,70 @@
+{
+  "Home": {
+    "metaTitle": "Innova Design — design studio",
+    "metaDescription": "A studio for identity, digital product, and visual systems. Clear work, measured, and ready to use.",
+    "hero": {
+      "eyebrow": "Design studio",
+      "title": "Form, in measure.",
+      "description": "Identity, interfaces, and visual systems for teams that need a clear direction and work they can actually use.",
+      "primaryCta": "Write to the studio",
+      "secondaryCta": "Read the blog",
+      "sheetLabel": "What we work on",
+      "lines": [
+        "Identity that holds up in daily use",
+        "Interfaces with hierarchy and states",
+        "Systems another team can follow"
+      ]
+    },
+    "services": {
+      "eyebrow": "Practice",
+      "title": "Three lines",
+      "items": [
+        {
+          "title": "Identity",
+          "description": "Name, mark, and rules of use. Concrete enough that someone else can apply them without reinterpreting them."
+        },
+        {
+          "title": "Product",
+          "description": "Screens, flows, and visual language. Hierarchy reads before decoration does."
+        },
+        {
+          "title": "Systems",
+          "description": "Tokens, components, and criteria. Design stops depending on a loose file."
+        }
+      ]
+    },
+    "stories": {
+      "eyebrow": "Notes",
+      "title": "From the studio",
+      "readLabel": "Read",
+      "allLabel": "All notes"
+    },
+    "process": {
+      "eyebrow": "How",
+      "title": "From the question to the handoff",
+      "steps": [
+        {
+          "title": "Conversation",
+          "description": "What needs solving, for whom, and what already exists."
+        },
+        {
+          "title": "Direction",
+          "description": "One visual and verbal line, before producing variants."
+        },
+        {
+          "title": "Pieces",
+          "description": "The screens, the identity, or the system, with real states."
+        },
+        {
+          "title": "Handoff",
+          "description": "Files, rules, and what the team needs to continue alone."
+        }
+      ]
+    },
+    "closing": {
+      "title": "If there is already a project, or only a question.",
+      "description": "Write to us. We reply with the next step, not a generic deck.",
+      "cta": "Contact"
+    }
+  }
+}

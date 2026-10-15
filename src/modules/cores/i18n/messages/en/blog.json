@@ -1,0 +1,15 @@
+{
+  "Blog": {
+    "title": "Blog",
+    "metaTitle": "Studio blog",
+    "description": "Notes on visual direction, systems, and how we take a project apart.",
+    "backToBlog": "← Back to the blog",
+    "readingTime": "{minutes} min read",
+    "categoryStudio": "Studio",
+    "categoryNotes": "Notes",
+    "readMore": "Read more →",
+    "allPosts": "All",
+    "relatedTitle": "Other notes",
+    "empty": "There are no posts in this category yet."
+  }
+}

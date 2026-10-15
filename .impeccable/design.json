@@ -1,0 +1,243 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-15T06:30:00.000Z",
+  "title": "Design System: Innovadesign",
+  "extensions": {
+    "colorMeta": {
+      "night": {
+        "role": "primary",
+        "displayName": "Noche",
+        "canonical": "#000000",
+        "tonalRamp": ["#000000", "#171717", "#2E2E2E", "#454545", "#5C5C5C", "#8A8A8A", "#C4C4C4", "#F4F4F4"]
+      },
+      "carbon": {
+        "role": "neutral",
+        "displayName": "Carbón",
+        "canonical": "#171A20",
+        "tonalRamp": ["#000000", "#171A20", "#22262C", "#393C41", "#5C5E62", "#8E8E8E", "#D0D1D2", "#F4F4F4"]
+      },
+      "graphite": {
+        "role": "neutral",
+        "displayName": "Grafito",
+        "canonical": "#393C41",
+        "tonalRamp": ["#171A20", "#22262C", "#393C41", "#4A4E54", "#5C5E62", "#8E8E8E", "#D0D1D2", "#F4F4F4"]
+      },
+      "pewter": {
+        "role": "neutral",
+        "displayName": "Peltre",
+        "canonical": "#5C5E62",
+        "tonalRamp": ["#22262C", "#393C41", "#4A4E54", "#5C5E62", "#73767A", "#8E8E8E", "#C8C9CB", "#EEEEEE"]
+      },
+      "silver": {
+        "role": "neutral",
+        "displayName": "Plata",
+        "canonical": "#8E8E8E",
+        "tonalRamp": ["#393C41", "#5C5E62", "#73767A", "#8E8E8E", "#A6A6A6", "#C4C4C4", "#E0E0E0", "#F7F7F7"]
+      },
+      "ash": {
+        "role": "neutral",
+        "displayName": "Ceniza",
+        "canonical": "#F4F4F4",
+        "tonalRamp": ["#5C5E62", "#8E8E8E", "#A6A6A6", "#C4C4C4", "#D8D8D8", "#E8E8E8", "#F4F4F4", "#FFFFFF"]
+      },
+      "hairline-dark": {
+        "role": "neutral",
+        "displayName": "Filete noche",
+        "canonical": "#22262C",
+        "tonalRamp": ["#000000", "#171A20", "#22262C", "#393C41", "#5C5E62", "#8E8E8E", "#D0D1D2", "#F4F4F4"]
+      },
+      "hairline": {
+        "role": "neutral",
+        "displayName": "Filete",
+        "canonical": "#EEEEEE",
+        "tonalRamp": ["#5C5E62", "#8E8E8E", "#A6A6A6", "#C4C4C4", "#D8D8D8", "#E4E4E4", "#EEEEEE", "#FFFFFF"]
+      },
+      "white": {
+        "role": "primary",
+        "displayName": "Blanco",
+        "canonical": "#FFFFFF",
+        "tonalRamp": ["#171A20", "#393C41", "#5C5E62", "#8E8E8E", "#C4C4C4", "#E8E8E8", "#F4F4F4", "#FFFFFF"]
+      },
+      "signal-orange": {
+        "role": "secondary",
+        "displayName": "Naranja señal",
+        "canonical": "#FC4400",
+        "tonalRamp": ["#3A1500", "#6A2800", "#9A3C00", "#C44A00", "#FC4400", "#FF7A3D", "#FFB088", "#FFE4D4"]
+      },
+      "electric-blue": {
+        "role": "tertiary",
+        "displayName": "Azul eléctrico",
+        "canonical": "#102CE8",
+        "tonalRamp": ["#070A4A", "#0C1480", "#101CA8", "#102CE8", "#3D55F0", "#6B84F5", "#A8B6FA", "#E4E8FF"]
+      },
+      "on-accent": {
+        "role": "neutral",
+        "displayName": "Sobre acento",
+        "canonical": "#FFFFFF",
+        "tonalRamp": ["#171A20", "#393C41", "#5C5E62", "#8E8E8E", "#C4C4C4", "#E8E8E8", "#F4F4F4", "#FFFFFF"]
+      }
+    },
+    "typographyMeta": {
+      "display": { "displayName": "Display", "purpose": "Título de cada banda a pantalla completa." },
+      "headline": { "displayName": "Headline", "purpose": "Frase corta bajo el título, o nombre de vertical." },
+      "title": { "displayName": "Title", "purpose": "Nombre de persona o de producto en una lista." },
+      "body": { "displayName": "Body", "purpose": "Párrafos, hasta 65 ch." },
+      "label": { "displayName": "Label", "purpose": "Navegación, botones y rótulos de vertical." }
+    },
+    "shadows": [],
+    "motion": [
+      {
+        "name": "color-settle",
+        "value": "0.33s cubic-bezier(0.5, 0, 0, 0.75)",
+        "purpose": "Única duración para cambios de color, fondo y borde."
+      }
+    ],
+    "breakpoints": [
+      { "name": "mobile", "value": "768px" },
+      { "name": "desktop", "value": "1024px" }
+    ]
+  },
+  "components": [
+    {
+      "name": "Holding Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Acción principal del holding, en el showroom negro.",
+      "html": "<button class=\"ds-btn-primary\">Conocer el holding</button>",
+      "css": ".ds-btn-primary { background: #FFFFFF; color: #171A20; font-family: Inter, -apple-system, Arial, sans-serif; font-size: 14px; font-weight: 500; line-height: 1.2; letter-spacing: normal; height: 40px; padding: 10px 24px; border: 3px solid transparent; border-radius: 4px; cursor: pointer; transition: background-color 0.33s cubic-bezier(0.5, 0, 0, 0.75), color 0.33s cubic-bezier(0.5, 0, 0, 0.75); } .ds-btn-primary:hover { background: #F4F4F4; } .ds-btn-primary:focus-visible { outline: 2px solid #FFFFFF; outline-offset: 2px; }"
+    },
+    {
+      "name": "Secondary Button",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "Segunda acción sobre la noche. Máximo una junto a la principal.",
+      "html": "<button class=\"ds-btn-secondary\">Contacto</button>",
+      "css": ".ds-btn-secondary { background: #171A20; color: #FFFFFF; font-family: Inter, -apple-system, Arial, sans-serif; font-size: 14px; font-weight: 500; line-height: 1.2; height: 40px; padding: 10px 24px; border: 3px solid transparent; border-radius: 4px; cursor: pointer; transition: background-color 0.33s cubic-bezier(0.5, 0, 0, 0.75); } .ds-btn-secondary:hover { background: #22262C; } .ds-btn-secondary:focus-visible { outline: 2px solid #FFFFFF; outline-offset: 2px; }"
+    },
+    {
+      "name": "Mobility Button",
+      "kind": "button",
+      "refersTo": "button-mobility",
+      "description": "Única acción cromática dentro de SubVen y vehículos.",
+      "html": "<button class=\"ds-btn-mobility\">Conoce SubVen</button>",
+      "css": ".ds-btn-mobility { background: #FC4400; color: #FFFFFF; font-family: Inter, -apple-system, Arial, sans-serif; font-size: 14px; font-weight: 500; line-height: 1.2; height: 40px; padding: 10px 24px; border: 3px solid transparent; border-radius: 4px; cursor: pointer; transition: background-color 0.33s cubic-bezier(0.5, 0, 0, 0.75); } .ds-btn-mobility:hover { background: #C44A00; } .ds-btn-mobility:focus-visible { outline: 2px solid #FC4400; outline-offset: 2px; }"
+    },
+    {
+      "name": "Social Button",
+      "kind": "button",
+      "refersTo": "button-social",
+      "description": "Acción de Sila, participación ciudadana y voluntariado.",
+      "html": "<button class=\"ds-btn-social\">Conoce Sila</button>",
+      "css": ".ds-btn-social { background: #102CE8; color: #FFFFFF; font-family: Inter, -apple-system, Arial, sans-serif; font-size: 14px; font-weight: 500; line-height: 1.2; height: 40px; padding: 10px 24px; border: 3px solid transparent; border-radius: 4px; cursor: pointer; transition: background-color 0.33s cubic-bezier(0.5, 0, 0, 0.75); } .ds-btn-social:hover { background: #101CA8; } .ds-btn-social:focus-visible { outline: 2px solid #102CE8; outline-offset: 2px; }"
+    },
+    {
+      "name": "Navigation",
+      "kind": "nav",
+      "refersTo": "nav-link",
+      "description": "Barra del holding sobre la noche, sin borde ni sombra.",
+      "html": "<nav class=\"ds-nav\"><span class=\"ds-wordmark\">Innovadesign</span><div class=\"ds-nav-links\"><a class=\"ds-nav-link is-active\" href=\"#quienes\">Quiénes somos</a><a class=\"ds-nav-link\" href=\"#verticales\">Verticales</a><a class=\"ds-nav-link\" href=\"#noticias\">Noticias</a><a class=\"ds-nav-link\" href=\"#contacto\">Contacto</a></div></nav>",
+      "css": ".ds-nav { display: flex; align-items: center; justify-content: space-between; gap: 24px; min-height: 56px; padding: 8px 24px; background: rgba(0, 0, 0, 0.72); color: #FFFFFF; font-family: Inter, -apple-system, Arial, sans-serif; } .ds-wordmark { font-size: 14px; font-weight: 500; letter-spacing: normal; } .ds-nav-links { display: flex; gap: 8px; } .ds-nav-link { color: #FFFFFF; text-decoration: none; font-size: 14px; font-weight: 500; line-height: 1.2; padding: 4px 16px; border-radius: 4px; transition: background-color 0.33s cubic-bezier(0.5, 0, 0, 0.75); } .ds-nav-link:hover, .ds-nav-link.is-active { background: rgba(255, 255, 255, 0.08); } .ds-nav-link:focus-visible { outline: 2px solid #FFFFFF; outline-offset: 2px; }"
+    },
+    {
+      "name": "Sector Band",
+      "kind": "card",
+      "refersTo": "sector-card",
+      "description": "Ficha de una vertical. El filete es el único color.",
+      "html": "<article class=\"ds-sector\"><p class=\"ds-kicker\">Conoce SubVen</p><h3 class=\"ds-sector-title\">SubVen</h3><p class=\"ds-sector-body\">Solución integral de cobro digital, telemetría y gestión operativa para el transporte público.</p></article>",
+      "css": ".ds-sector { background: transparent; border-left: 2px solid #FC4400; border-radius: 12px; padding: 24px; max-width: 42rem; } .ds-kicker { margin: 0 0 8px; color: #5C5E62; font-family: Inter, -apple-system, Arial, sans-serif; font-size: 14px; font-weight: 500; line-height: 1.2; } .ds-sector-title { margin: 0; color: #FFFFFF; font-family: Inter, -apple-system, Arial, sans-serif; font-size: 22px; font-weight: 500; line-height: 1.2; } .ds-sector-body { margin: 8px 0 0; color: #D0D1D2; font-family: Inter, -apple-system, Arial, sans-serif; font-size: 14px; font-weight: 400; line-height: 1.43; max-width: 65ch; }"
+    },
+    {
+      "name": "Team Row",
+      "kind": "custom",
+      "refersTo": "team-row",
+      "description": "Equipo integrado al relato: nombre y cargo, sin tarjeta.",
+      "html": "<ul class=\"ds-team\"><li><p class=\"ds-team-name\">Diego Farfán</p><p class=\"ds-team-role\">Director general</p></li><li><p class=\"ds-team-name\">José Luis Macedo</p><p class=\"ds-team-role\">Director financiero</p></li></ul>",
+      "css": ".ds-team { display: grid; grid-template-columns: 1fr 1fr; gap: 32px; margin: 0; padding: 0; list-style: none; } .ds-team-name { margin: 0; color: #FFFFFF; font-family: Inter, -apple-system, Arial, sans-serif; font-size: 17px; font-weight: 500; line-height: 1.18; } .ds-team-role { margin: 4px 0 0; color: #5C5E62; font-family: Inter, -apple-system, Arial, sans-serif; font-size: 14px; font-weight: 400; line-height: 1.43; }"
+    },
+    {
+      "name": "Text Field",
+      "kind": "input",
+      "refersTo": "text-input",
+      "description": "Campo sobre la noche. El foco no toma el color de una vertical.",
+      "html": "<label class=\"ds-field\"><span class=\"ds-field-label\">Correo</span><input class=\"ds-input\" type=\"email\" placeholder=\"info@innovadesign.com.mx\" /></label>",
+      "css": ".ds-field { display: flex; flex-direction: column; gap: 8px; font-family: Inter, -apple-system, Arial, sans-serif; } .ds-field-label { color: #FFFFFF; font-size: 14px; font-weight: 500; } .ds-input { background: transparent; color: #FFFFFF; border: none; border-bottom: 1px solid #22262C; border-radius: 0; padding: 12px 0; font: 400 14px/1.43 Inter, -apple-system, Arial, sans-serif; } .ds-input::placeholder { color: #8E8E8E; } .ds-input:focus { outline: none; border-bottom-color: #FFFFFF; }"
+    },
+    {
+      "name": "Empty News",
+      "kind": "custom",
+      "refersTo": "news-empty",
+      "description": "Noticias visible y vacía. Sin tarjetas de relleno.",
+      "html": "<section class=\"ds-news\"><h2 class=\"ds-news-title\">Noticias</h2><p class=\"ds-news-status\">Todavía no hay notas.</p></section>",
+      "css": ".ds-news { padding: 48px 0; border-top: 1px solid #22262C; } .ds-news-title { margin: 0; color: #FFFFFF; font-family: Inter, -apple-system, Arial, sans-serif; font-size: 40px; font-weight: 500; line-height: 1.2; } .ds-news-status { margin: 16px 0 0; color: #5C5E62; font-family: Inter, -apple-system, Arial, sans-serif; font-size: 14px; font-weight: 400; line-height: 1.43; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "El showroom negro",
+    "overview": "Innovadesign es un holding, y el sitio se comporta como un showroom: negro, quieto, una idea por pantalla. Lo futurista no está en neones ni en tipografía gruesa. Está en la resta. El lienzo por defecto es negro puro, la fotografía va a sangre cuando existe, y la interfaz se limita a una frase, una marca y como máximo dos acciones. Tesla es la referencia de disciplina (radio de 4 px, dos pesos, cero sombras, vidrio en la navegación), invertida: aquí la noche es el modo principal y el blanco es el modo claro.\n\nEl negro es la marca del holding. El color cromático no decora la casa: nombra una vertical y solo vive dentro de ella. Movilidad, incluidos los vehículos, habla en el naranja de SubVen. Lo social —Sila, participación ciudadana y voluntariado— comparte un solo azul eléctrico. Lo gubernamental no tiene pigmento: su acento es el blanco del arco.\n\nEl modo claro no es un gris invertido. Es el mismo showroom con el lienzo en blanco y la tinta en carbón. Cambian las superficies. No cambia la escasez.",
+    "keyCharacteristics": [
+      "Negro puro como modo por defecto; blanco puro como modo claro.",
+      "Un solo acento de vertical por pantalla. El holding se queda en blanco y negro.",
+      "Dos pesos tipográficos, 400 y 500. Tracking sin tocar.",
+      "Controles con radio de 4 px. Sin píldoras.",
+      "Sin sombras. La profundidad es fotografía, capa y vidrio esmerilado.",
+      "Transiciones de color en 0.33 s. Sin rebotes ni escalas."
+    ],
+    "rules": [
+      {
+        "name": "The One Voice Rule",
+        "body": "En una pantalla vive un solo acento de vertical. SubVen no se sienta junto a Sila. El inicio del holding puede listar las verticales, pero cada pieza lleva solo su color.",
+        "section": "colors"
+      },
+      {
+        "name": "The Scarcity Rule",
+        "body": "El acento aparece en la marca, en el botón de esa vertical o en un filete de 2 px. No pinta el fondo de una sección.",
+        "section": "colors"
+      },
+      {
+        "name": "The White Sector Rule",
+        "body": "La consultoría gubernamental es blanca sobre el sitio negro. En modo claro ese acento se invierte a carbón, porque el blanco sobre blanco desaparece. Sigue sin ser un tercer pigmento.",
+        "section": "colors"
+      },
+      {
+        "name": "The Two Weights Rule",
+        "body": "Solo existen 400 y 500. Ni 300, ni 700, ni itálica.",
+        "section": "typography"
+      },
+      {
+        "name": "The Untouched Tracking Rule",
+        "body": "El interletrado se queda en normal en todos los tamaños. No se aprieta para verse más técnico.",
+        "section": "typography"
+      },
+      {
+        "name": "The One Message Rule",
+        "body": "Cada banda mayor dice una sola cosa. Si hacen falta dos colores para explicarla, la banda está mal partida.",
+        "section": "layout"
+      },
+      {
+        "name": "The Flat Showroom Rule",
+        "body": "Prohibido el box-shadow en tarjetas, botones y menús. Si un bloque no se lee, se separa con espacio o con un filete de 1 px, no con una sombra.",
+        "section": "elevation"
+      },
+      {
+        "name": "The Chiclet Rule",
+        "body": "Si se puede oprimir, el radio es 4 px. Si es una ficha de vertical, 12 px. Nada más.",
+        "section": "shapes"
+      }
+    ],
+    "dos": [
+      "Do usar la noche como fondo por defecto y el blanco como modo claro.",
+      "Do reservar el naranja señal a SubVen y a cualquier diseño de movilidad, vehículos incluidos.",
+      "Do usar un solo azul eléctrico para Sila, participación ciudadana y voluntariado.",
+      "Do marcar la consultoría gubernamental en blanco sobre el sitio negro, y en carbón cuando el lienzo es blanco.",
+      "Do dejar Noticias visible y vacía hasta que exista una nota real.",
+      "Do presentar a Diego Farfán y a José Luis Macedo como nombre y cargo, en fila, dentro de quiénes somos."
+    ],
+    "donts": [
+      "Don't usar el azul eléctrico ni el naranja como botón de la home del holding.",
+      "Don't mezclar naranja y azul en el mismo componente.",
+      "Don't añadir sombras, gradientes, brillos o texturas técnicas.",
+      "Don't usar píldoras, peso 700, itálicas ni tracking negativo.",
+      "Don't rellenar Noticias, voluntariado o el equipo con contenido que no haya llegado."
+    ]
+  }
+}

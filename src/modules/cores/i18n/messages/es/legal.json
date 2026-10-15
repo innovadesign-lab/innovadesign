@@ -1,0 +1,25 @@
+{
+  "Privacy": {
+    "title": "Aviso de privacidad",
+    "metaTitle": "Aviso de privacidad",
+    "description": "Qué datos trata este sitio y para qué.",
+    "paragraphs": [
+      "Este texto es un aviso inicial del sitio. Sustitúyelo por el aviso legal definitivo antes de publicarlo.",
+      "Innova Design, en Puebla, México, es responsable del sitio. El correo de contacto es hola@innovadesign.mx.",
+      "El formulario de contacto no envía datos a un servidor nuestro: abre tu aplicación de correo. Si nos escribes, usamos tu nombre, correo y mensaje solo para responder.",
+      "La preferencia de cookies y el tema claro u oscuro se guardan en el almacenamiento local de tu navegador. Puedes borrarlos desde la configuración del navegador.",
+      "Para pedir acceso, corrección o supresión de un mensaje que nos hayas enviado, escribe a hola@innovadesign.mx."
+    ]
+  },
+  "Cookies": {
+    "title": "Aviso de cookies",
+    "metaTitle": "Aviso de cookies",
+    "description": "Cómo usa este sitio la preferencia de cookies.",
+    "paragraphs": [
+      "Este sitio no carga analítica de terceros en esta versión.",
+      "Si aceptas o rechazas el aviso, guardamos esa elección en el almacenamiento local del navegador para no volver a mostrar el banner.",
+      "El tema claro u oscuro también se recuerda en el mismo navegador. No se envía a un servidor.",
+      "Puedes borrar esas claves desde la configuración de tu navegador."
+    ]
+  }
+}

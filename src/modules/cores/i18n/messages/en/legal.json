@@ -1,0 +1,25 @@
+{
+  "Privacy": {
+    "title": "Privacy notice",
+    "metaTitle": "Privacy notice",
+    "description": "What data this site handles, and why.",
+    "paragraphs": [
+      "This is a starter notice for the site. Replace it with the final legal text before publishing.",
+      "Innova Design, in Puebla, Mexico, is responsible for the site. The contact email is hola@innovadesign.mx.",
+      "The contact form does not send data to our server: it opens your mail app. If you write to us, we use your name, email, and message only to reply.",
+      "Your cookie choice and light or dark theme are stored in your browser's local storage. You can clear them in the browser settings.",
+      "To ask for access, correction, or deletion of a message you sent us, write to hola@innovadesign.mx."
+    ]
+  },
+  "Cookies": {
+    "title": "Cookie notice",
+    "metaTitle": "Cookie notice",
+    "description": "How this site uses the cookie preference.",
+    "paragraphs": [
+      "This version of the site does not load third-party analytics.",
+      "If you accept or reject the notice, we store that choice in the browser's local storage so the banner does not return.",
+      "The light or dark theme is also remembered in the same browser. It is not sent to a server.",
+      "You can delete those keys from your browser settings."
+    ]
+  }
+}

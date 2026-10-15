@@ -1,0 +1,21 @@
+{
+  "Studio": {
+    "title": "El estudio",
+    "metaTitle": "El estudio",
+    "description": "Innova Design es un estudio pequeño. Trabajamos identidad, producto digital y sistemas visuales desde Puebla.",
+    "blocks": [
+      {
+        "title": "Qué hacemos",
+        "body": "Tomamos un problema de forma —una marca que no se sostiene, una interfaz que no se lee, un sistema que nadie puede seguir— y lo dejamos usable. El resultado es una dirección y las piezas para aplicarla."
+      },
+      {
+        "title": "Cómo decidimos",
+        "body": "Preferimos pocas opciones bien argumentadas. El color, el tipo y el espacio tienen un trabajo. Si un elemento no ordena, no informa o no se puede mantener, no entra."
+      },
+      {
+        "title": "Dónde",
+        "body": "El estudio está en Puebla, México. Los proyectos pueden ser locales o remotos. El primer contacto es por correo."
+      }
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "Blog": {
+    "title": "Blog",
+    "metaTitle": "Blog del estudio",
+    "description": "Notas sobre dirección visual, sistemas y la forma en que trabajamos un proyecto.",
+    "backToBlog": "← Volver al blog",
+    "readingTime": "{minutes} min de lectura",
+    "categoryStudio": "Estudio",
+    "categoryNotes": "Notas",
+    "readMore": "Leer más →",
+    "allPosts": "Todas",
+    "relatedTitle": "Otras notas",
+    "empty": "Todavía no hay publicaciones en esta categoría."
+  }
+}
